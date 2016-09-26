@@ -1,0 +1,21 @@
+Version 1.0.4 - September 26th 2016 
+
+* Added: Start / End Times to auction times #5
+* Added: Automated language file builds
+
+Version 1.0.3 - May 4th 2016 
+
+* Fixed: Product Type not showing on front end
+
+Version 1.0.2 - Feburary 13th 2016 
+
+* Fixed: Buy it now price display on auction tab
+
+Version 1.0.1 - January 27th 2016
+
+* Fixed: Non-Auction Prices do not save #3
+* Fixed: Add/Save Product Button missing #2
+
+Version 1.0.0 - January 10th 2016 
+
+* Initial Release 
