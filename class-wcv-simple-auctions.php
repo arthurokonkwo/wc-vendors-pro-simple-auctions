@@ -306,14 +306,10 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'		=> $post_id, 
 			'id' 			=> '_auction_dates_from', 
 			'label' 		=> __( 'From', 'wcvendors-pro-simple-auctions' ), 
-			'class'			=> 'wcv-datepicker', 
+			'class'			=> 'wcv-datetimepicker', 
 			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD',  
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100 ">',
 			'wrapper_end' 	=> '</div>', 
-			'custom_attributes' => array(
-				'maxlenth' 	=> '10', 
-				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
-				),
 			) )
 		);
 
@@ -321,15 +317,11 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'			=> $post_id, 
 			'id' 				=> '_auction_dates_to', 
 			'label' 			=> __( 'To', 'wcvendors-pro-simple-auctions' ), 
-			'class'				=> 'wcv-datepicker', 
+			'class'				=> 'wcv-datetimepicker', 
 			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD', 
 			'wrapper_start' 	=> '<div class="all-50 small-100">',
 			'wrapper_end' 		=> '</div></div>', 
 			'desc_tip'			=> true, 
-			'custom_attributes' => array(
-				'maxlenth' 		=> '10', 
-				'pattern' 		=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
-				),
 			) )
 		);
 
