@@ -170,6 +170,7 @@ class WC_Vendors_Simple_Auctions {
 			if ( isset( $_POST['_buy_it_now_price'] ) ) { 
 				update_post_meta( $post_id, '_buy_it_now_price', stripslashes( $_POST['_buy_it_now_price'] ) );
 				update_post_meta( $post_id, '_regular_price', stripslashes( $_POST['_buy_it_now_price'] ) );
+				update_post_meta( $post_id, '_price', intval(stripslashes( $_POST['_buy_it_now_price']) ) );
 			}
 
 			if ( isset( $_POST['_regular_price'] ) ) { 
